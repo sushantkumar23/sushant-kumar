@@ -1,0 +1,29 @@
+{
+  "name": "sushant-kumar",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss@latest build src/css/tailwind.css -o dist/style.css",
+    "build": "npm build:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushantkumar23/sushant-kumar.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "netlify"
+  ],
+  "author": "Sushant Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sushantkumar23/sushant-kumar/issues"
+  },
+  "homepage": "https://github.com/sushantkumar23/sushant-kumar#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "tailwindcss": "^2.1.2"
+  }
+}
