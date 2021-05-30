@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "npx tailwindcss@latest build src/css/tailwind.css -o dist/style.css",
-    "build": "npm build:css"
+    "build": "npm run build:css"
   },
   "repository": {
     "type": "git",
